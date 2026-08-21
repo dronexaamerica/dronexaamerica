@@ -233,3 +233,29 @@ a{color:inherit}
 .founder-credentials span{padding:9px 12px;border-radius:999px;background:var(--soft-green);color:var(--navy);font-size:.76rem;font-weight:800}
 @media (max-width:850px){.founder-card{grid-template-columns:1fr}.founder-visual{min-height:260px}}
 @media (max-width:600px){.founder-card{padding:22px;gap:28px}}
+
+/* Final DRONEXA logo treatment */
+.brand img{
+  width:170px !important;
+  height:74px !important;
+  max-width:170px !important;
+  object-fit:contain !important;
+  object-position:center !important;
+  border-radius:0 !important;
+}
+.footer-brand img{
+  width:165px !important;
+  height:84px !important;
+  max-width:165px !important;
+  object-fit:contain !important;
+  object-position:center !important;
+  background:#fff;
+  padding:3px;
+}
+@media (max-width:600px){
+  .brand img{
+    width:145px !important;
+    height:62px !important;
+    max-width:145px !important;
+  }
+}
