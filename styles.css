@@ -301,3 +301,21 @@ a{color:inherit}
   .founder-photo{min-height:260px}
 }
 @media (max-width:650px){.form-grid{grid-template-columns:1fr}}
+
+
+/* Supplied DRONEXA visuals */
+.hero-photo-wrap{min-height:430px;display:flex;align-items:center;justify-content:center}
+.hero-photo{width:100%;max-width:720px;aspect-ratio:776/535;object-fit:cover;border-radius:24px;box-shadow:0 24px 60px rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.16)}
+.resource-with-cover{display:grid;grid-template-columns:190px 1fr;gap:24px;align-items:start}
+.resource-cover-link{display:block}
+.resource-cover{width:100%;height:auto;display:block;border-radius:10px;box-shadow:0 12px 26px rgba(0,0,0,.12);border:1px solid var(--line)}
+.resource-card-copy{min-width:0}
+.framework-cover-figure{margin:0 0 26px}
+.framework-cover-figure img{width:min(100%,520px);height:auto;display:block;border-radius:14px;box-shadow:0 16px 36px rgba(0,0,0,.12);border:1px solid var(--line)}
+@media (max-width:760px){
+  .hero-photo-wrap{min-height:0;margin-top:22px}
+  .hero-photo{border-radius:16px}
+  .resource-with-cover{grid-template-columns:1fr}
+  .resource-cover{max-width:300px;margin:0 auto}
+  .framework-cover-figure img{margin:0 auto}
+}
