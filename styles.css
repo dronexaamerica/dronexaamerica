@@ -204,3 +204,16 @@ a{color:inherit}
  .translation-arrow{transform:rotate(90deg)}
 }
 @media (max-width:600px){.research-question-grid,.foundation-grid{grid-template-columns:1fr}}
+
+.collab-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:32px}
+.collab-grid article{background:#fff;border:1px solid var(--line);border-radius:15px;padding:25px}
+.collab-grid span{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--soft-green);color:var(--green);font-weight:900}
+.collab-grid h3{color:var(--navy);margin:17px 0 8px}
+.collab-grid p{color:#5e6d7e;font-size:.92rem}
+.contact-section{background:#f7fafc}
+.contact-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:32px;box-shadow:0 12px 35px rgba(6,42,89,.08)}
+.contact-card h3{color:var(--navy);font-size:1.35rem;margin:8px 0 10px}
+.contact-card p{color:#5e6d7e}
+.contact-note{font-size:.82rem;margin-top:16px!important;font-weight:800;color:var(--navy)!important}
+@media (max-width:800px){.collab-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.collab-grid{grid-template-columns:1fr}}
