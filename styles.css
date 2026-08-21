@@ -161,3 +161,15 @@ a{color:inherit}
 @media (max-width:700px){
   .principle-grid,.access-grid,.role-grid,.evaluation-grid,.implementation-flow{grid-template-columns:1fr}
 }
+
+.pilot-phase-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:32px}
+.pilot-phase-grid article{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:15px;padding:24px}
+.pilot-phase-grid span{display:inline-block;color:#a7d57c;font-weight:900;text-transform:uppercase;letter-spacing:.06em;font-size:.78rem}
+.pilot-phase-grid h3{color:#fff;margin:14px 0 9px}
+.pilot-phase-grid p{color:#dbe6f1;font-size:.92rem}
+.capacity-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:30px}
+.capacity-grid article{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px;border-top:4px solid var(--green)}
+.capacity-grid h3{color:var(--navy);margin-top:0}
+.capacity-grid p{color:#5e6d7e;font-size:.92rem}
+@media (max-width:950px){.pilot-phase-grid,.capacity-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:650px){.pilot-phase-grid,.capacity-grid{grid-template-columns:1fr}}
