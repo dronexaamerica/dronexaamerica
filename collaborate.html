@@ -21,7 +21,7 @@
         <a href="rural-nebraska-pilot.html">Nebraska Pilot</a>
         <a href="resources.html">Resources</a>
         <a href="research.html">Research</a>
-        <a href="collaborate.html" aria-current="page">Collaborate</a>
+        <a class="nav-cta" href="collaborate.html" aria-current="page">Collaborate</a>
       </nav>
     </div>
   </header>
@@ -103,7 +103,7 @@
         <div class="capacity-grid">
           <article><h3>Educator Preparation</h3><p>Professional learning design, instructional readiness, curriculum integration, and implementation support.</p></article>
           <article><h3>Flight Without Limits™</h3><p>Accessibility, assistive technology, meaningful participation, mission roles, safety, and evaluation.</p></article>
-          <article><h3>Policy & Implementation</h3><p>Responsible institutional practice, safety, ethics, regulatory awareness, and implementation standards.</p></article>
+          <article><h3>Policy & Implementation</h3><p>Responsible institutional practice, safety, ethics, regulatory awareness, and implementation guidance.</p></article>
           <article><h3>Research & Evaluation</h3><p>Study design, evidence collection, implementation evaluation, refinement, and dissemination.</p></article>
         </div>
       </div>
@@ -134,7 +134,7 @@
     <section class="section process">
       <div class="container">
         <p class="eyebrow dark">A Collaborative Development Path</p>
-        <h2>Engage → Learn → Refine → Implement → Evaluate → Improve</h2>
+        <h2>Engage → Exchange Expertise → Refine → Explore Implementation → Evaluate → Improve</h2>
         <div class="process-row">
           <div><span>1</span><b>Engage</b></div>
           <div><span>2</span><b>Exchange Expertise</b></div>
@@ -151,21 +151,34 @@
         <div>
           <p class="eyebrow dark">Start a Conversation</p>
           <h2>Interested in the work?</h2>
-          <p>
-            If your expertise or organization aligns with DRONEXA America's educational, accessibility,
-            research, safety, or workforce goals, you are welcome to begin with an exploratory conversation.
-          </p>
+          <p>If your expertise or organization aligns with DRONEXA America's educational, accessibility, research, safety, or workforce goals, you are welcome to begin with an exploratory conversation.</p>
+          <p class="section-lead">Tell us a little about yourself and the area you would like to discuss.</p>
         </div>
-        <div class="contact-card">
-          <span class="resource-type">DRONEXA America</span>
-          <h3>Collaboration & Professional Inquiry</h3>
-          <p>
-            Use the contact link below to introduce yourself, your area of expertise or organization,
-            and the aspect of DRONEXA America you would like to discuss.
-          </p>
-          <a class="btn btn-primary" href="mailto:dronexaamerica@gmail.com?subject=DRONEXA%20America%20Collaboration%20Inquiry">Start a Conversation</a>
-          <p class="contact-note">dronexaamerica@gmail.com</p>
-        </div>
+        <form id="collaboration-form" class="inquiry-form">
+          <div class="form-grid">
+            <label>Name*<input type="text" name="name" required autocomplete="name"></label>
+            <label>Organization / Institution<input type="text" name="organization" autocomplete="organization"></label>
+            <label>Role / Title<input type="text" name="role" autocomplete="organization-title"></label>
+            <label>Email*<input type="email" name="email" required autocomplete="email"></label>
+          </div>
+          <label>Area of Interest*
+            <select name="interest" required>
+              <option value="">Select an area</option>
+              <option>Educator Preparation</option>
+              <option>Flight Without Limits™</option>
+              <option>Research & Evaluation</option>
+              <option>Policy & Implementation Guidance</option>
+              <option>Rural Nebraska Pilot</option>
+              <option>UAS / Industry & Workforce</option>
+              <option>Resource Review</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Message*<textarea name="message" rows="6" required placeholder="Tell us about your interest, expertise, question, or potential area of collaboration."></textarea></label>
+          <p class="form-disclaimer">Submitting an inquiry does not establish a formal partnership, endorsement, sponsorship, funding commitment, adoption, or implementation agreement.</p>
+          <button class="btn btn-primary" type="submit">Send Inquiry</button>
+          <p class="contact-note">Prefer email? <a href="mailto:dronexaamerica@gmail.com">dronexaamerica@gmail.com</a></p>
+        </form>
       </div>
     </section>
 
@@ -189,7 +202,7 @@
       </div>
       <div>
         <strong>Educate • Empower • Elevate</strong>
-        <p>Drone-integrated STEM education for access, safety, instruction, and workforce readiness.</p>
+        <p>Advancing safe, inclusive, research-informed, and workforce-connected drone-integrated STEM education.</p>
       </div>
       <div class="footer-right">
         <a href="https://dronexaamerica.best">dronexaamerica.best</a>
