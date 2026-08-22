@@ -85,6 +85,9 @@ a{color:inherit}
 .notice p{margin-bottom:0}
 .collaborate{text-align:center;background:var(--navy-deep);color:#fff}
 .collaborate p{color:#dbe6f1}
+.contact-email{margin:16px 0 0}
+.contact-email a{color:#9ed878;font-weight:800;text-decoration:none}
+.contact-email a:hover{text-decoration:underline}
 .site-footer{padding:42px 0;background:#02142c;color:#cbd6e2;border-top:4px solid var(--green)}
 .footer-grid{display:grid;grid-template-columns:220px 1fr auto;gap:34px;align-items:center}
 .footer-brand img{width:200px;height:72px;object-fit:cover;object-position:50% 48%;background:#fff;border-radius:6px}
