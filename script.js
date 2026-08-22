@@ -25,6 +25,6 @@ if (collaborationForm) {
       'Message:',
       `${data.get('message') || ''}`
     ].join('\n');
-    window.location.href = `mailto:info@dronexaamerica.best?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:dronexaamerica@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
 }
